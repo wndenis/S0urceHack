@@ -5,9 +5,16 @@ Convolutional neural network powered automation script for s0urce.io game
 
 **Features:**
 * Fully automated  
-* 0.999 network accuracy  
+* 0.999 network accuracy (but char detection could be better)  
 * Emulates direct input  
 * Leaves custom message to targets   
+  
+**Process:**  
+![Hacking Process](https://raw.githubusercontent.com/wndenis/S0urceHack/master/images/hacking_process.gif)  
+  
+**Character detection:**  
+![Char Detection](https://raw.githubusercontent.com/wndenis/S0urceHack/master/images/char_detection.gif)  
+
 
 **Requirements:**  
 Python 3.5.6  
@@ -32,7 +39,7 @@ Process will take about 1 hour.
 You will have about 3 seconds to switch to browser with game.  
 _cdm_ window must be opened and visible.  
 To collect data, just start playing the game, and the script will store keys and images from your screen.
-Script support backspace key, which means you can correct your errors.  
+Script supports backspace key, which means you can correct your errors.  
 Also, script will validate input by compare lengths of detected word and your word.  
 Collected data will be stored in subfolder of _dataset_ folder with name corresponding to char represented.  
 You must rerun script each time after finishing hacking the target.  
